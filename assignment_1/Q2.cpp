@@ -3,7 +3,7 @@ the same implementation to sort another array: int arr2[] = {38, 27, 43, 3, 9, 8
 
 
 #include <stdio.h>
-
+Using namespace std;
 
 void merge(int arr[], int left, int mid, int right)
 {
@@ -62,10 +62,10 @@ int main(){
     mergeSort(arr1, 0, size1 - 1);
     mergeSort(arr2, 0, size2 - 1);
 
-    printf("Sorted arr1: ");
+    cout<<("Sorted arr1: ");
     printArray(arr1, size1);
 
-    printf("Sorted arr2: ");
+    cout<<("Sorted arr2: ");
     printArray(arr2, size2);
 
     return 0;
