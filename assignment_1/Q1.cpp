@@ -33,9 +33,9 @@ int main()
     int result = binarySearch(arr, size, target);
 
     if (result != -1)
-        printf("Element %d found at index %d\n", target,result);
+        cout<<("Element %d found at index %d\n", target,result);
     else
-        printf("Element not found\n");
+        cout<<("Element not found\n");
 
     return 0;
 }
